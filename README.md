@@ -68,6 +68,16 @@ This will launch a web interface where users can enter inputs and receive predic
 - **Precision & Recall**: Evaluates class-specific performance.
 - **F1-score**: Balances precision and recall.
 - **ROC-AUC**: Measures model performance in distinguishing between classes.
+- Accuracy: 0.8055555555555556
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.86      0.74      0.79       129
+           1       0.76      0.88      0.82       123
+
+    accuracy                           0.81       252
+   macro avg       0.81      0.81      0.81       252
+weighted avg       0.81      0.81      0.80       252
 
 ## LLM Experimentation (Optional)
 - Implemented an LLM-based approach to provide **natural language explanations** for predictions.
